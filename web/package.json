@@ -1,0 +1,17 @@
+{
+  "name": "irtools",
+  "version": "2.0.0",
+  "description": "IR Tools for zmote",
+  "main": "server.js",
+  "dependencies": {
+    "restify": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Urmil Parikh <urmil@klarsys.com>",
+  "license": "MIT",
+  "homepage": "http://www.zmote.io"
+}

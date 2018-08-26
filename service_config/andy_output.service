@@ -1,0 +1,10 @@
+[Unit]
+Description=Andy Output Service
+
+[Service]
+Type=simple
+ExecStart=/home/pi/andy/output.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
